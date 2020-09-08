@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.app .menu {
+  margin: 0px;
+  background: #4f4f4f;
+  position: absolute;
+  width: 122px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app .chat {
+  /* Message Bar */
+
+  position: absolute;
+  width: 243px;
+  height: 1024px;
+  left: 122px;
+  top: 0px;
+
+  background: #56ccf2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  /* Unselected 1 */
+
+  position: absolute;
+  width: 243px;
+  height: 130px;
+  left: 122px;
+  top: 191px;
+
+  background: #e0e0e0;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card .img {
+  /* Rectangle path */
+
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  left: 148px;
+  top: 258px;
+
+  border: 1px solid #bdbdbd;
 }
 
-.App-link {
-  color: #61dafb;
+.main .input {
+  /* Box */
+
+  position: absolute;
+  width: 899px;
+  height: 28px;
+  left: 422px;
+  top: 16px;
+
+  background: #f6f6f6;
+  border-radius: 4.12952px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main .main-top {
+  /* Header */
+
+  position: absolute;
+  width: 1013px;
+  height: 61px;
+  left: 365px;
+  top: 0px;
+
+  background: #e0e0e0;
+}
+
+.side-bar {
+  /* Info Bar */
+
+  position: absolute;
+  width: 62px;
+  height: 1024px;
+  left: 1378px;
+  top: 0px;
+
+  background: #ededed;
 }
